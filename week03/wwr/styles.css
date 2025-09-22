@@ -1,0 +1,16 @@
+* {
+  margin-left: 15px;
+}
+.happy-clients {
+  width: 150px;
+}
+
+.hero-background {
+  /* width: 400px; */
+}
+
+.social-media {
+  width: 49px;
+  display: inline-block;
+  display: flex;
+}
