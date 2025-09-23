@@ -22,3 +22,7 @@
 .about-section {
   /* position: absolute; */
 }
+
+.hero-background {
+  float: right;
+}
