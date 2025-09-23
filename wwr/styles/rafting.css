@@ -44,11 +44,6 @@ article {
   position: relative;
 }
 
-/* .hero h1,
-article {
-  position: abosolute;
-} */
-
 .hero img {
   display: block;
   width: 100%;
@@ -71,6 +66,7 @@ article {
   background-color: var(--secondary-color);
   padding: 15px;
   color: var(--primary-color);
+  clear: both;
 }
 
 .hero article img {
@@ -84,9 +80,4 @@ article {
 
 section h2 {
   background-color: var(--secondary-color);
-}
-
-.about-us {
-  position: absolute;
-  margin-top: -20px;
 }
