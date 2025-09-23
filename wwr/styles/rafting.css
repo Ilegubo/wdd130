@@ -62,7 +62,7 @@ article {
 }
 
 .hero article {
-  position: abosulte;
+  position: absolute;
   background-color: var(--secondary-color);
   padding: 15px;
   color: var(--primary-color);
