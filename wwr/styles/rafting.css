@@ -1,13 +1,18 @@
+:root {
+  --default-width: 15px;
+}
 * {
   margin-left: 15px;
 }
 .happy-clients {
   width: 150px;
+  display: flex;
 }
 
 .social-media {
-  width: 49px;
+  width: var(--default-width);
   display: flex;
+  text-decoration: none;
 }
 
 .hero {
@@ -15,5 +20,5 @@
 }
 
 .about-section {
-  position: absolute;
+  /* position: absolute; */
 }
