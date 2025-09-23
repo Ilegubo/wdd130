@@ -9,3 +9,11 @@
   width: 49px;
   display: flex;
 }
+
+.hero {
+  position: relative;
+}
+
+.about-section {
+  position: absolute;
+}
