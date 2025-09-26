@@ -67,6 +67,8 @@ article {
   padding: 15px;
   color: var(--primary-color);
   clear: both;
+  top: 350px;
+  width: 90%;
 }
 
 .hero article img {
@@ -80,4 +82,8 @@ article {
 
 section h2 {
   background-color: var(--secondary-color);
+}
+
+.social-media a{
+  text-decoration: none;
 }
