@@ -19,6 +19,9 @@ body {
 header,
 main,
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   width: 840px;
   margin: 0 auto;
 }
@@ -38,6 +41,7 @@ article {
 
 .social-media {
   text-decoration: none;
+  justify-content: end;
 }
 
 .hero {
@@ -85,7 +89,9 @@ section h2 {
 }
 
 .socialmedia a {
-  text-decoration: none;  
+  text-decoration: none;
+  
+
 }
 
 header {
