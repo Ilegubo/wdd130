@@ -23,6 +23,7 @@ div {
 
 .flex {
     background-color: #aba;
+    display:flex;
     /* write declarations here */
 
 }
