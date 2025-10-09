@@ -29,6 +29,8 @@ h1,
 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
+  /* margin: 10px;
+  padding: 10px; */
 }
 
 nav,
@@ -155,4 +157,20 @@ main div {
 
 .goal {
   margin-top: -25px;
+}
+
+.figure-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  font-weight: bold;
+  text-indent: 5px;
+}
+
+.figure-images img {
+  width: 110px;
+  height: auto;
+  border-radius: 12px;
+  -ms-grid-row-align: center;
+  
 }
