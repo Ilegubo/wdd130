@@ -171,6 +171,6 @@ main div {
   width: 120px;
   height: auto;
   border-radius: 12px;
-  -ms-grid-row-align: center;
+  /* -ms-grid-row-align: center; */
 
 }
