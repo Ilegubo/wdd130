@@ -2,8 +2,8 @@
   --primary-color: white;
   --secondary-color: #183263;
   --accent1-color: darkgray;
-  --body-font: Arial, Hlvetica, sans-serif;
-  --headiing-font: "Times New roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+  --heading-font: "Times New roman", "Georgia", serif;
 }
 
 * {
@@ -16,7 +16,6 @@ body {
   font-family: var(--body-font);
 }
 
-header,
 main,
 footer {
   display: flex;
@@ -92,7 +91,7 @@ section h2 {
 
 .socialmedia a {
   text-decoration: none;
-  justify-content: ;
+  /* justify-content: ; */
 
 }
 
