@@ -4,11 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ilegubo Kofi Owusu">
+    <link rel="stylesheet" href="styles/table.css">
     <title>HTML Tables</title>
 </head>
 
 <body>
+    <header>
 
+    </header>
+
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th>Person</th>
+                    <th>Most Interest In</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row" rowspan="4">Accounting</td>
+                    <td>Chris</td>
+                    <td>Accounting</td>
+                    <td>22</td>
+                </tr>
+
+
+                <tr>
+                    <td>Dennis</td>
+                    <td>Web Accessibility</td>
+                    <td>45</td>
+                </tr>
+
+                <tr>
+                    <td>Sarah</td>
+                    <td>Web Accessibility</td>
+                    <td>45</td>
+                </tr>
+
+                <tr>
+                    <td>Karen</td>
+                    <td>Web Performance</td>
+                    <td>36</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="3">Average age</th>
+                    <td>33</td>
+                </tr>
+            </tfoot>
+            <caption>Front-end Web Developer Course</caption>
+        </table>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+table {
+    margin: 2rem 0 .2rem 2rem;
+    width: 400px;
+}
+
+th {
+    text-align: Center;
+    font-weight: Bold;
+    /* background-color: gainsboro; */
+    color: darkslateblue;
+    padding: .5rem;
+    margin: .1rem
+
+}
+
+td {
+    text-align: center;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: gainsboro;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+caption {
+    font-weight: bold;
+    font-style: italic;
+    padding: 1rem;
+    font-size: larger;
+
+}
