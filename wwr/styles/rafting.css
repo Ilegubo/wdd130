@@ -161,7 +161,6 @@ main div {
 #contact-page {
   display: grid;
   grid-template-columns: 3;
-  border: 2px solid black;
   gap: 1rem;
 }
 
@@ -246,4 +245,25 @@ input[type="radio"] {
     flex-direction: column;
     gap: 8px;
     margin-top: 5px;
+}
+
+.employees h2 {
+  text-align: center;
+  font-size: larger;
+  color: black;
+  padding: 1rem;
+}
+
+.employees img {
+  display: inline;
+  border: 1px darkslategray solid;
+  border-radius: 12px;
+  max-width: 200px;
+  margin: .5rem;
+}
+
+.employee-images {
+display: flex;
+justify-content: space-evenly;
+flex-flow: row wrap;
 }
