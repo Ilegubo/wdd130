@@ -1,10 +1,10 @@
-:root {
+/* :root {
   --primary-color: white;
   --secondary-color: #183263;
   --accent1-color: darkgray;
   --body-font: Arial, Helvetica, sans-serif;
   --heading-font: "Times New roman", "Georgia", serif;
-}
+} */
 
 * {
   margin: 0px;
@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: var(--body-font);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main,
@@ -26,7 +26,7 @@ footer {
 }
 h1,
 h2 {
-  font-family: var(--heading-font);
+  font-family: "Times New roman", "Georgia", serif;
   color: white;
 }
 
@@ -56,15 +56,15 @@ article {
   padding: 16px;
   text-align: center;
   opacity: 0.8;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
+  background-color: #183263;
+  color: white;
 }
 
 .hero article {
   position: absolute;
-  background-color: var(--secondary-color);
+  background-color: #183263;
   padding: 15px;
-  color: var(--primary-color);
+  color: white;
   clear: both;
   top: 350px;
   width: 90%;
@@ -83,7 +83,7 @@ article {
 }
 
 section h2 {
-  background-color: var(--secondary-color);
+  background-color: #183263;
 }
 
 header {
