@@ -175,6 +175,7 @@ main div {
   grid-template-columns: 1fr 1fr ;
   gap: .4rem;
   padding: 1rem;
+  font-weight: bold;
 }
 
 iframe {
@@ -198,13 +199,25 @@ iframe {
 #reservation-question, #website-suggestion, #subscribe
 {
   margin-bottom: .5rem;
+  padding: .5rem;
+  border-radius: 8px;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+  margin: 0 auto;
+
 }
 
 #radio-section {
-  display: block;
+  display: grid;
+  grid-template-columns: 2;
+  justify-content: space-between;
+  align-items: center;
+  gap: .5rem;
 }
 
-#radio-section label {
-  display: block;
+#radio-section #general-inquiry {
+  grid-column: 2;
   
 }
