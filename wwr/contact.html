@@ -49,24 +49,36 @@
 						<p>Message Purpose</p>
 
 						<div id="radio-section">
-							<input type="radio" name="general-inquiry" id="general-inquiry">
-							<label for="general-inquiry">General Inquiry</label>
-							<input type="radio" name="reservation-question" id="reservation-question"><label
-								for="reservation-question">Reservation
-								Question</label>
-							<input type="radio" name="website-suggestion" id="website-suggestion"><label
-								for="website-suggestion">Website
-								Suggestion</label>
+							<div class="radio-group">
+								<input type="radio" name="purpose" id="general-inquiry">
+								<label for="general-inquiry">General Inquiry</label>
+							</div>
+							<div class="radio-group">
+								<input type="radio" name="purpose" id="reservation-question">
+								<label for="reservation-question">Reservation Question</label>
+							</div>
+							<div class="radio-group">
+								<input type="radio" name="purpose" id="website-suggestion">
+								<label for="website-suggestion">Website Suggestion</label>
+							</div>
 						</div>
 					</div>
 					<div class="form-section">
-						<label for="message"></label>Message<textarea name="message" id="message"></textarea>
-						<input type="checkbox" name="checkbox" id="checkbox"></input>
-						<label for="checkbox">Please subscribe me to the monthly newsletter</label>
-
+						<label for="message">Message</label>
+						<textarea name="message" id="message"></textarea>
+						<div class="checkbox-group">
+							<input type="checkbox" name="checkbox" id="subscribe">
+							<label for="subscribe">Please subscribe me to the monthly newsletter</label>
+						</div>
 					</div>
 				</form>
 			</div>
+		</div>
+		<div class="employees">
+			<h2>We Are Here to Serve You</h2>
+			<img src="images/employee1.webp" alt="Employee 1">
+			<img src="images/employee2.jpg" alt="Employee 2">
+			<img src="images/employee3.jpg" alt="Employee 3">
 		</div>
 	</main>
 	<footer>

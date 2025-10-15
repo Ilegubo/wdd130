@@ -191,8 +191,15 @@ iframe {
 }
 
 #message-and-radio {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;  /* This centers the content vertically */
+}
+
+#message-and-radio p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
 }
 
 #name, #email, #message, #general-inquiry,
@@ -209,15 +216,34 @@ input[type="radio"] {
 
 }
 
-#radio-section {
-  display: grid;
-  grid-template-columns: 2;
-  justify-content: space-between;
-  align-items: center;
-  gap: .5rem;
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 12px;
+    margin-left: 0;  /* Ensures radio groups align with the paragraph above */
 }
 
-#radio-section #general-inquiry {
-  grid-column: 2;
-  
+.radio-group input[type="radio"] {
+    margin: 0;
+    transform: scale(1.2);
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    gap: 12px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0;
+    transform: scale(1.2);
+}
+
+#radio-section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 5px;
 }
