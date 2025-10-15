@@ -155,3 +155,56 @@ main div {
   height: auto;
   border-radius: 12px;
 }
+
+/* Contact Page */
+
+#contact-page {
+  display: grid;
+  grid-template-columns: 3;
+  border: 2px solid black;
+  gap: 1rem;
+}
+
+#contact-page-heading h1, #contact-page-heading h2 {
+  color: black;
+  text-align: center;
+}
+
+#location-and-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: .4rem;
+  padding: 1rem;
+}
+
+iframe {
+  max-width: 90%;
+  height: 95%;
+}
+
+#textbox-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+#message-and-radio {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#name, #email, #message, #general-inquiry,
+#reservation-question, #website-suggestion, #subscribe
+{
+  margin-bottom: .5rem;
+}
+
+#radio-section {
+  display: block;
+}
+
+#radio-section label {
+  display: block;
+  
+}
