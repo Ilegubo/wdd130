@@ -267,3 +267,17 @@ display: flex;
 justify-content: space-evenly;
 flex-flow: row wrap;
 }
+
+button {
+  padding: .5rem;
+  border-radius: 12px;
+  background-color: darkslateblue;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+}
+
+.employees figcaption {
+  text-align: center;
+  font-size: large;
+}
