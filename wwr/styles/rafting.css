@@ -164,7 +164,8 @@ main div {
   gap: 1rem;
 }
 
-#contact-page-heading h1, #contact-page-heading h2 {
+#contact-page-heading h1, #contact-page-heading h2, #home-page-heading h1, #home-page-heading h2
+#trips-page-heading h1, #trips-page-heading h2 {
   color: black;
   text-align: center;
 }
@@ -289,4 +290,79 @@ button:hover {
   text-align: center;
   font-size: large;
   color: --var(-)
+}
+
+/* Trips Page Styles */
+.trips-overview {
+    padding: 2rem;
+}
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.trip-card {
+    border: 1px solid var(--accent1-color);
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+}
+
+.trip-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.trip-card h3 {
+    color: var(--secondary-color);
+    margin: 1rem 0;
+}
+
+.trip-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.info-card {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.info-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.info-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-card li {
+    margin: 0.5rem 0;
+}
+
+#trips-page-heading {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.trips-overview h2, .trip-info h2 {
+    text-align: center;
+    color: var(--secondary-color);
+    margin: 2rem 0;
 }
