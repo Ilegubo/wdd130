@@ -277,6 +277,12 @@ button {
   color: white;
 }
 
+button:hover {
+  background-color: #183263;
+  border-color: #183263;
+  cursor: pointer;
+}
+
 .employees figcaption {
   text-align: center;
   font-size: large;
