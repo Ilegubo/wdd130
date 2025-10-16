@@ -178,8 +178,10 @@ main div {
 }
 
 iframe {
-  max-width: 90%;
-  height: 95%;
+    max-width: 90%;
+    height: 450px;
+    width: 600px;
+    border: 0;
 }
 
 #textbox-section {
@@ -286,4 +288,5 @@ button:hover {
 .employees figcaption {
   text-align: center;
   font-size: large;
+  color: --var(-)
 }
