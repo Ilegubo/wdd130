@@ -165,9 +165,7 @@ main div {
   gap: 1rem;
 }
 
-#contact-page-heading h1, #contact-page-heading h2, 
-#home-heading h1, #home-heading h2,
-.trips-heading h1, .trips-heading h2 {
+main h1, main h2 {
   color: black;
   text-align: center;
 }
