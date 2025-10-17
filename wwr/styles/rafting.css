@@ -7,13 +7,18 @@
   --heading-font: "Times New roman", "Georgia", serif;
 } */
 
-/* Add hover effect to navigation - applies to all pages */
-nav a:hover {
-    background-color: #183263;
-    color: white;
+/* Navigation hover styles - applies to all pages */
+nav a {
     padding: 8px;
+    border: 2px solid transparent;
     border-radius: 4px;
     transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #183263;
+    border-color: #183263;
+    color: white;
 }
 
 /* Home Page Specific Styles - Won't affect other pages */
