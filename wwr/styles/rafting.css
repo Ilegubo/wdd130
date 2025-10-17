@@ -10,6 +10,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-size: x-large
 }
 
 body {
@@ -164,8 +165,9 @@ main div {
   gap: 1rem;
 }
 
-#contact-page-heading h1, #contact-page-heading h2, #home-page-heading h1, #home-page-heading h2
-#trips-page-heading h1, #trips-page-heading h2 {
+#contact-page-heading h1, #contact-page-heading h2, 
+#home-heading h1, #home-heading h2,
+.trips-heading h1, .trips-heading h2 {
   color: black;
   text-align: center;
 }
@@ -195,7 +197,7 @@ iframe {
 #message-and-radio {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-items: center;  /* This centers the content vertically */
+    align-items: center; 
 }
 
 #message-and-radio p {
@@ -289,7 +291,6 @@ button:hover {
 .employees figcaption {
   text-align: center;
   font-size: large;
-  color: --var(-)
 }
 
 /* Trips Page Styles */
@@ -310,6 +311,11 @@ button:hover {
 
 #trips-page-heading h1, #trips-page-heading h2 {
     margin: 0.5rem 0;
+}
+
+.trip-info h2, .trips-overview h2 {
+background-color: white;
+color: black;
 }
 
 .trips-grid {
