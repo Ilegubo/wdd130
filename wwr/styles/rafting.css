@@ -282,7 +282,7 @@ button {
 
 button:hover {
   background-color: #183263;
-  border-color: #183263;
+  border-color: white;
   cursor: pointer;
 }
 
@@ -303,8 +303,8 @@ button:hover {
     text-align: center;
     margin: 2rem 0;
     padding: 1rem;
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: #183263;
+    color: white;
     border-radius: 8px;
 }
 
@@ -321,7 +321,7 @@ button:hover {
 }
 
 .trip-card {
-    border: 1px solid var(--accent1-color);
+    border: 1px solid darkgray;
     border-radius: 8px;
     padding: 1.5rem;
     background-color: white;
@@ -337,7 +337,7 @@ button:hover {
 }
 
 .trip-card h3 {
-    color: var(--secondary-color);
+    color: #183263;
     margin: 1rem 0;
     font-size: 1.5rem;
 }
@@ -356,7 +356,7 @@ button:hover {
 .trip-card li {
     margin: 0.5rem 0;
     padding-left: 1rem;
-    border-left: 3px solid var(--secondary-color);
+    border-left: 3px solid #183263;
 }
 
 .info-grid {
@@ -368,17 +368,17 @@ button:hover {
 }
 
 .info-card {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
+    background-color: #183263;
+    color: white;
     padding: 2rem;
     border-radius: 8px;
 }
 
 .info-card h3 {
-    color: var(--primary-color);
+    color: white;
     margin-bottom: 1.5rem;
     font-size: 1.3rem;
-    border-bottom: 2px solid var(--primary-color);
+    border-bottom: 2px solid white;
     padding-bottom: 0.5rem;
 }
 
@@ -397,16 +397,16 @@ button:hover {
     content: "•";
     position: absolute;
     left: 0;
-    color: var(--primary-color);
+    color: white;
 }
 
 .trips-overview h2, .trip-info h2 {
     text-align: center;
-    color: var(--secondary-color);
+    color: #183263;
     margin: 2rem 0;
     font-size: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 3px solid var(--secondary-color);
+    border-bottom: 3px solid #183263;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
