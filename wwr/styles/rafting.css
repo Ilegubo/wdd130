@@ -13,6 +13,8 @@ nav a {
     border: 2px solid transparent;
     border-radius: 4px;
     transition: all 0.3s ease;
+    text-decoration: none;
+    border: none;
 }
 
 nav a:hover {
@@ -165,11 +167,31 @@ article {
 }
 
 .background-image img {
-  max-width: 40%;
+  /* max-width: 0%; */
+  border-radius: 30px;
+  background-size: cover;
+  animation: background-slideshow 4s infinite;
   /* max-height: 150px; */
-  border-radius: 12px;
-  z-index: -1;
 }
+
+@keyframes background-image  {
+  0% {
+    background-image: url('/images/home1.jpg'); /* First image */
+  }
+  25% {
+    background-image: url('images/home2.jpg'); /* Second image */
+  }
+  50% {
+    background-image: url('images/home3.jpg'); /* Third image */
+  }
+  75% {
+    background-image: url('images/home4.jpg'); /* Fourth image */
+  }
+  100% {
+    background-image: url('images/image1.jpg'); /* Loop back to the first image */
+  }
+}
+
 .home-page .card {
     background-color: white;
     padding: 2rem;
@@ -269,6 +291,7 @@ footer nav img {
 header nav ul {
   list-style: none;
 }
+
 /* Responsive design */
 @media (max-width: 768px) {
     header nav ul {
@@ -350,7 +373,6 @@ body nav ul {
   flex-direction: row;
   justify-content: center;
   gap: 24px;
-  text-decoration: none;
 }
 
 body header nav {
