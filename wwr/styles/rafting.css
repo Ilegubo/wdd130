@@ -261,7 +261,14 @@ footer {
     background-color: #f8fafc;
     margin-top: 3rem;
 }
+footer nav img {
+  border-radius: 20%;
+  padding: .2rem;
+}
 
+header nav ul {
+  list-style: none;
+}
 /* Responsive design */
 @media (max-width: 768px) {
     header nav ul {
