@@ -26,15 +26,18 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    display: grid;
 }
 
 .home-hero {
     background-color: #f0f5ff;
-    padding: 60px 20px;
+    padding: 1rem;
     text-align: center;
     border-radius: 8px;
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
+    object-fit: contain;
 }
+
 
 .home-hero h1 {
     color: #183263;
@@ -44,7 +47,9 @@ nav a:hover {
 
 .home-services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
     gap: 30px;
     padding: 20px 0;
 }
@@ -54,6 +59,23 @@ nav a:hover {
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-services h2 {
+  padding: .8rem;
+  text-align: center;
+  border-radius: .5rem;
+}
+
+.home-cta h2 {
+  padding: 1rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: .8rem;;
+}
+
+.home-cta a {
+  text-align: center;
 }
 
 /* Trips Page Specific Styles - Won't affect other pages */
@@ -131,6 +153,12 @@ article {
   padding: 8px;
 }
 
+.background-image img {
+  max-width: 40%;
+  /* max-height: 150px; */
+  border-radius: 12px;
+  z-index: -1;
+}
 .home-page .card {
     background-color: white;
     padding: 2rem;
