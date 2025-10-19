@@ -85,6 +85,7 @@ nav a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    display: grid;
 }
 
 .trips-main h2 {
@@ -558,4 +559,22 @@ button:hover {
 .employees figcaption {
   text-align: center;
   font-size: large;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+  padding: .8rem;
+}
+table th {
+  background-color: skyblue;
+  font-weight: bolder;
+
+
+}
+
+
+table td {
+  padding: .3rem;
 }
