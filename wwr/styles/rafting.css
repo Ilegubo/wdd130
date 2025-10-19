@@ -561,20 +561,22 @@ button:hover {
   font-size: large;
 }
 
-table, th, td {
+.table-description table {
+  border-radius: 12px;
+  padding: .5rem;
   border-collapse: collapse;
+  overflow: hidden;
+}
+
+.table-description th, .table-description td {
   border: 1px solid black;
   text-align: center;
   padding: .8rem;
 }
+
 table th {
   background-color: skyblue;
   font-weight: bolder;
 
 
-}
-
-
-table td {
-  padding: .3rem;
 }
