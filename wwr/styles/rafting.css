@@ -528,7 +528,7 @@ input[type="radio"] {
 
 .employees img {
   display: inline;
-  border: 1px darkslategray solid;
+  border: 1px rgb(54, 91, 91) solid;
   border-radius: 12px;
   max-width: 200px;
   margin: .5rem;
@@ -558,5 +558,4 @@ button:hover {
 .employees figcaption {
   text-align: center;
   font-size: large;
-  color: --var(-)
 }
